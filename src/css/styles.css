@@ -71,3 +71,22 @@ body {
 .gallery-image {
   flex: 1 0 calc(33.33% - 10px);
 }
+
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 300px;
+}
