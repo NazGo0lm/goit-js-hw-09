@@ -4,9 +4,10 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css'); 
-/* @import url('./vite-promo.css'); */
-/* @import url('./header.css'); */
+@import url('./reset.css');
+@import url('./gallery.css');
+@import url('./simplelightbox.css');
+@import url('./form.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -24,6 +25,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -39,54 +41,4 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.gallery li {
-  flex: 1 0 calc(33.33% - 10px);
-  overflow: hidden;
-}
-
-.gallery li img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.gallery-flexbox {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.gallery-flexbox li {
-  flex: 1 0 calc(33.33% - 10px);
-}
-
-.gallery-image {
-  flex: 1 0 calc(33.33% - 10px);
-}
-
-.gallery {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery-item {
-  margin: 10px;
-}
-
-.gallery-link {
-  text-decoration: none;
-}
-
-.gallery-image {
-  width: 360px;
-  height: 300px;
 }
